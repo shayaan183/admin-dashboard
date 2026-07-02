@@ -69,6 +69,8 @@ body {
 	padding: 1.75rem;
 	display: flex;
 	flex-direction: column;
+	position: relative;
+	z-index: 20;
 }
 
 .logo {
@@ -133,6 +135,11 @@ body {
 
 	display: grid;
 	grid-template-rows: 1fr 1fr;
+
+	position: relative;
+	z-index: 10;
+
+	box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.15);
 }
 
 .header-top,
@@ -289,6 +296,7 @@ body {
 	border-radius: 8px;
 	padding: 1.5rem;
 	border-left: 8px solid #f0b429;
+	box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.15);
 }
 
 .card-title {
@@ -320,6 +328,7 @@ body {
 	padding: 1.5rem;
 	display: flex;
 	flex-direction: column;
+	box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.15);
 }
 
 .announcement {
