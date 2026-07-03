@@ -311,7 +311,16 @@ body {
 }
 
 .card-title {
+	color: #000000;
+	font-size: 1.1rem;
+	font-weight: 600;
+	text-decoration: none;
 	margin-bottom: 0.25rem;
+	transition: color 0.2s ease;
+}
+
+.card-title:hover {
+    color: #c38e13;
 }
 
 .card-text {
